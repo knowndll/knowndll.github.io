@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>cursed.sh</title>
-</head>
-<body style="background:black;color:orange;font-family:monospace;">
+<meta charset="UTF-8">
+<style>
+
+body {
+    background: #000000;
+}
+
+@font-face {
+  font-family: "MaFont";
+  src: url("fonts/lucidaconsole.ttf") format("woff");
+}
+
+* {
+  font-family: "MaFont";
+}
+
+/* PALETTE */
+.c-yellow { color: #e4b100; }
+.c-green  { color: #66b001; }
+.c-pink   { color: #c02492; }
+.c-purple { color: #7560c6; }
+.c-cyan   { color: #08b090; }
+.c-red    { color: #982001; }
+.c-orange { color: #df9a00; }
+.c-white { color: #ffffff; }
+
+</style>
 <pre>
-echo hacker
+<x class="c-red">┏━......</x><x class="c-green">00000000: 7f45 4c46 0201 0100 0000 0000 0000 0000  .ELF</x><x class="c-red">........━┓</x>
+<x class="c-red">┃                                                                       ┃</x>
+<x class="c-red">┃</x>   <x class="c-white"> █████ ██    ██ ███████  ██████ ██████ ██████      ██████ ██  ██</x>   <x class="c-red"> ┃</x>
+<x class="c-red">┃</x> <x class="c-white"> ██      ██    ██ ██    ██ ██     ██     ██    ██    ██     ██  ██</x>   <x class="c-red"> ┃</x>
+<x class="c-white">   ██      ██    ██ ███████  ██████ ████   ██    ██    ██████ ██████</x>
+<x class="c-yellow">┃</x> <x class="c-white"> ██      ██    ██ ██  ██       ██ ██     ██    ██        ██ ██  ██</x>    <x class="c-yellow">┃</x>
+<x class="c-yellow">┃</x>   <x class="c-white"> █████ ████████ ██    ██ ██████ ██████ ██████   ██ ██████ ██  ██</x>    <x class="c-yellow">┃</x>
+<x class="c-yellow">┃</x>                                                                       <x class="c-yellow">┃</x>
+<x class="c-yellow">┗━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━ ━┛</x></pre>
+<x class="c-orange">
+<pre><x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⢠⢀⡐⢄⢢⡐⢢⢁⠂⠄⠠⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ <x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⡄⣌⠰⣘⣆⢧⡜⣮⣱⣎⠷⣌⡞⣌⡒⠤⣈⠠⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠒⠊⠀⠀⠀⠀⢀⠢⠱⡜⣞⣳⠝⣘⣭⣼⣾⣷⣶⣶⣮⣬⣥⣙⠲⢡⢂⠡⢀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⢀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⢀⠀⠃⠀⠀⠀⢀⠀⠀⢀⠢⣑⢣⠝⣪⣵⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣯⣻⢦⣍⠢⢅⢂⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⢆⡱⠌⣡⢞⣵⣿⣿⣿⠿⠛⠛⠉⠉⠛⠛⠿⢷⣽⣻⣦⣎⢳⣌⠆⡱⢀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⢀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⢀⠂⠠⠌⢢⢃⡾⣱⣿⢿⡾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢻⣏⠻⣷⣬⡳⣤⡂⠜⢠⡀⣀⠀⠀⡀⠀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⢀⠂⣌⢃⡾⢡⣿⢣⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡇⡊⣿⣿⣾⣽⣛⠶⣶⣬⣭⣥⣙⣚⢷⣶⠦⡤⢀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⢀⠀⠀⢀⠀⠀⠀⠠⢁⠂⠰⡌⡼⠡⣼⢃⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⣿⣿⣿⣿⣿⣿⣿⣿⣾⡿⠿⣛⣯⡴⢏⠳⠁⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⠀⠀⠠⠑⡌⠀⣉⣾⣩⣼⣿⣾⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣠⣤⣤⣿⣿⣿⣿⡿⢛⣛⣯⣭⠶⣞⠻⣉⠒⠀⠂⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⢀⣀⡶⢝⣢⣾⣿⣼⣿⣿⣿⣿⣿⣀⣼⣀⣀⣀⣤⣴⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⠿⡛⠏⠍⠂⠁⢠⠁⠀⠀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠠⢀⢥⣰⣾⣿⣯⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⣽⠟⣿⠐⠨⠑⡀⠈⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⡐⢢⣟⣾⣿⣿⣟⣛⣿⣿⣿⣿⢿⣝⠻⠿⢿⣯⣛⢿⣿⣿⣿⡛⠻⠿⣛⠻⠛⡛⠩⢁⣴⡾⢃⣾⠇⢀⠡⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠈⠁⠊⠙⠉⠩⠌⠉⠢⠉⠐⠈⠂⠈⠁⠉⠂⠐⠉⣻⣷⣭⠛⠿⣶⣦⣤⣤⣴⣴⡾⠟⣫⣾⣿⡏⠀⠂⠐⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢻⢿⢶⣤⣬⣉⣉⣭⣤⣴⣿⣿⡿⠃⠄⡈⠁⠈⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠁⠘⢊⠳⠭⡽⣿⠿⠿⠟⠛⠉⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠈⠀⠁⠈⠐⠀⠘⠀⠈⠀⠈⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀<x class="c-purple">│  │</x>
+<x class="c-pink">│  │</x>            ⢀                    ⢀    ⠈                          <x class="c-purple">│  │</x>
+<x class="c-red">˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳</x> <x class="c-green">timeline</x><x class="c-red"> ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙˙ॱ⋅.˳˳.⋅ॱ˙</x>
+
+
 </pre>
-</body>
 </html>
 
